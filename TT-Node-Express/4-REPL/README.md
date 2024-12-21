@@ -2,22 +2,17 @@
 
 - its stand for Read-Eval-Print-Loop or Read,Evaluate,Print,Loop.
 - it's an interactive Programing environment that allows you to execute JS Code one statement at a time
-- Write "node" to go into REPL Environment | for Exit Press "CTRL + D"
-- you can write basic js code and operationjust like Browser Devtools
+- Write "node" to go into REPL Environment 
+- for Exit Press "CTRL + D"
+- you can perform basic js code and operation . just like Browser Devtools
 
 ### How to go on REPL Mode?
-- first check node install or not in CLI(Terminal) => node -v
-- then check write -> node
-- its shows to 
-welcome to nodejs vxx.xx.xx
-Type ".help" for more information
-- write ".help" its shows
-- Press Ctrl+C to abort current Expression,Ctrl+D to exit the REPL
->
+- first check node install or not  => in CLI(Terminal) => node -v
+- then write => node => you are in REPL mode
 
-====> in short => node -> .help -> REPLENVIRONMENT oPEN | TO CLOSE REPL => Ctrl +D
+====> in short => node -> .help -> REPLENVIRONMENT OPEN | TO CLOSE REPL => Ctrl +D
 
-* Examples :-
+### Examples :-
 
 - 3+3=6
 - 3*3=9
