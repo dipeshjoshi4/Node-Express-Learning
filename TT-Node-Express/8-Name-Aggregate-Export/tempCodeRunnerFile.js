@@ -1,0 +1,1 @@
+const { add, mult, div, sub } = require("./math.js");

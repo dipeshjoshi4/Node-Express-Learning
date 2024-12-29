@@ -15,8 +15,11 @@ const mult = (a,b) => {
     return a * b;
 }
 
-//1st Method for all function to exports in app.js
+//?1
+// module.exports.add = add;
+// module.exports.mult = mult;
+// module.exports.div = div;
+// module.exports.sub = sub;
 
-//?Normal
-module.export.add = add;
-module.export.
+//?2
+module.exports = { div, mult, add, sub };
