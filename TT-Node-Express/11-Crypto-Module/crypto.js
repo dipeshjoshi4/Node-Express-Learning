@@ -12,6 +12,8 @@ console.log(randomValue)
 //?output -> random hexdecimal value u got
 
 //!Choose algorithm from which ypu got has value
+//?SYNTAX----> crypto.createHash("module name").update("any string").digest("in which value u need data")
+
 const hashValue = crypto.createHash("sha256").update("random value").digest("hex");
 console.log(hashValue); //? hax code get 
 const hashValue1 = crypto.createHash("sha256").update("random value").digest("hex");
